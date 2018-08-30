@@ -1,11 +1,11 @@
-const mysql = require('mysql');
+const mysql = require('mysql')
 
 const connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
   password : 'bootcamp',
-  database : 'burgers_db',
+  database : 'burger_db',
   multipleStatements: true
 });
 
-module.exports = connection;
+module.exports = connection
